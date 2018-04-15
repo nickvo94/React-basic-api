@@ -24,7 +24,7 @@ class Weather extends React.Component{
 
     render(){
         var degreeC = parseInt(Number(this.state.temp) - 273.14);
-        var iconUrl = 'http://openweathermap.org/img/w/'+ this.state.icon +'.png';
+        var iconUrl = 'https://openweathermap.org/img/w/'+ this.state.icon +'.png';
         return (
             <Card className="GeneralCard">
             <CardTitle title="Weather Helsinki" subtitle="Open Weather Map API"/>
