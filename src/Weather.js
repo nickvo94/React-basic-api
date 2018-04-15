@@ -10,7 +10,7 @@ class Weather extends React.Component{
     }
 
     componentDidMount() {
-        fetch('http://api.openweathermap.org/data/2.5/weather?q=Helsinki&APPID=f7ba8cb466401b68f78e41e54b7be85d')
+        fetch('https://api.openweathermap.org/data/2.5/weather?q=Helsinki&APPID=f7ba8cb466401b68f78e41e54b7be85d')
         .then((Response) => Response.json())
         .then((responseData) => {
             console.log(responseData),
