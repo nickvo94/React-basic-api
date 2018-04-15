@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    width: 100%;
+    background: whitesmoke;
+}
+
+h2 {
+    padding-top: 20px
+}
+
+.App {
+    margin: auto;
+    text-align: center;
+    
+  }
+  
+.App-header {    
+    background-color:  rgb(8, 0, 83);
+    height: 150px;    
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+table, tbody, th, tr {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.GeneralCard {
+    margin: 0px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.Counter {
+    margin: auto;
+    padding: 20px 50px;
+}
